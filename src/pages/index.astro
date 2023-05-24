@@ -1,23 +1,9 @@
 ---
-// import '../styles/global.css';
+ import BaseLayout from '../layouts/Base.astro'
 ---
 
-<!DOCTYPE html>
-<html lang="fr">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<title>Notre super blog</title>
-	</head>
-	<body>
-		<header>
-			<p>Notre super Blog&nbsp;!</p>
-			<nav>
-				<a href="/">Accueil</a>
-			</nav>
-		</header>
+<BaseLayout>
+		
 		<main>
 			<h1>🧑‍🚀 Salut les Astronautes&nbsp;!</h1>
 			<p>
@@ -46,9 +32,8 @@
 				>La documentation</a> est disponible (en français).
 			</p>
 		</main>
-		<footer>Made in Toulouse, France.</footer>
-	</body>
-</html>
+		
+</BaseLayout>
 
 <style>
 :root {
