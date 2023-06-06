@@ -2,7 +2,6 @@
 import '../styles/global.css';
 import Header from '../components/Header.astro'
 import Footer from '../components/Footer.astro'
-
 ---
 
 
@@ -18,15 +17,29 @@ import Footer from '../components/Footer.astro'
 	
 <body>
 	<Header/>
+	
 
 	<main>
+	<article>
 	<slot /> 
-
+	</article>
 	<Footer />
 </main>
 
 </body>
 
+
 </html>
 
+<style>
+	main{
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 900px;
+	}
 
+	article {
+		padding: 20px;
+		background-color: gray;
+	}
+</style>
