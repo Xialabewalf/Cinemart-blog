@@ -1,9 +1,41 @@
 <header>
-	<p>Notre super Blog&nbsp;!</p>
+	
+	<h1>Cinem'Art </h1>
+	
+	h1{
+			font-size: 42px;
+			color: #fff;
+			line-height: 230px;
+			text-transform: uppercase;
+			font-weight: 100;
+			@include transition(all .3s ease);
+		}
+	
 	<nav>
-		<a href="/">Accueil</a>
-		<a href="/blog">Blog</a>
+		<a href="">Accueil</a>
+		<a href="">Articles</a>
+		<a href="">Contact</a>
 	</nav>
+	
+	nav{
+			position: absolute;
+			bottom: 0;
+			height: 60px;
+			line-height: 60px;
+			}
+
+	header{
+		
+		width: 50%;
+		height: 300px;
+		background-color: #3498db;
+		text-align: center;
+		position: relative;
+		position: fixed;
+		top: 0;
+		overflow: hidden;
+		@include transition(all .5s ease);
+				}
 </header>
 
 <style>
