@@ -7,3 +7,5 @@ Normalement, situé à l'adresse: `/blog/article-test`
 <p> blabla test<p<>
 
 [Retour à l'accueil](/)
+
+[retour à l'accueil](/)
