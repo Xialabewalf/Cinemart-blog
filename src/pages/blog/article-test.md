@@ -5,6 +5,7 @@ layout: ../../layouts/BlogPost.astro
 
 Normalement, situé à l'adresse: `/blog/article-test`
 <p> blabla test<p<>
+<p> sarah est lente<p<>
 
 [Retour à l'accueil](/)
 
