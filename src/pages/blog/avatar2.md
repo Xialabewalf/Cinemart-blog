@@ -1,5 +1,6 @@
 ---
 layout: ../../layouts/BlogPost.astro
+title: avatar
 ---
 
 # Révolution technologique : L'incroyable avancée derrière le film Avatar
