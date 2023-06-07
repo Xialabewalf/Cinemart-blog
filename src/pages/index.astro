@@ -20,9 +20,14 @@ body{
 	color: rgb(190, 30, 30);
 }
 .intro {
-	display: flex;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	flex-flow: row wrap;
 	align-items: center;
 	gap: 40px;
+}
+.intro img {
+	box-shadow: 10px 10px 0 0 red;
 }
 h1{
 	font-size: 4rem;
@@ -33,13 +38,10 @@ h1{
 p{
 	text-align: center;
 	color: black;
+	margin-top: 40px;
 }
 p + p {
 	margin-top: 12px;
-}
-
-img {
-	box-shadow: 10px 10px 0 0 red;
 }
 </style>
 
