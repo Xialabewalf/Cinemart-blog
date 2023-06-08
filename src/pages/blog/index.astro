@@ -1,20 +1,52 @@
 ---
 import BaseLayout from "../../layouts/Base.astro";
-const allPosts = await Astro.glob('./*.md');
+const allPosts = await Astro.glob("./*.md");
 ---
+
 <BaseLayout>
     <section>
         <h1>Liste des articles</h1>
-        <ul>
+        <ul role="list">
             {
                 allPosts.map((post) => (
-                    <li>
-                        <a href={`${post.url}/`}>{post.frontmatter.title}</a>
-												<p>{post.frontmatter.description}</p>
-												<img src={post.frontmatter.hero} alt="">
+                    <li class="article">
+                        <h2>
+                            <a href={`${post.url}/`}>
+                                {post.frontmatter.title}
+                            </a>
+                        </h2>
+                        <p>Publie le: {post.frontmatter.pubDate}</p>
+                        <p>{post.frontmatter.description}</p>
+                        <a href={`${post.url}/`} class="bouton">Lire la suite</a>
+
                     </li>
                 ))
             }
         </ul>
     </section>
 </BaseLayout>
+
+<style>
+    .article {
+        margin-bottom: 20px;
+
+        padding: 20px;
+
+        background-color: #D9D9D9;
+    }
+
+    .article h2 {
+        color: black;
+        margin-top: 0;
+    }
+
+    .article p {
+        margin-bottom: 10px;
+    }
+
+    h1{
+        margin-bottom: 15px;
+    }
+
+
+</style>

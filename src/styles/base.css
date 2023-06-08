@@ -1,6 +1,37 @@
 body {
 	font-size: 1.1rem;
 	font-family: Arial, Helvetica, sans-serif;
-	color: red;
+	color: black;
 	background-color: #eee;
 }
+
+a {
+	color: inherit;
+}
+
+.bouton {
+
+	display: inline-block;
+	
+	padding: 5px 10px;
+	
+	background-color: #333;
+	
+	color: #fff;
+	
+	text-decoration: none;
+	
+	}
+
+	.bouton:hover {
+		background-color: #555;
+	}
+
+
+	h3+p {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+
+	

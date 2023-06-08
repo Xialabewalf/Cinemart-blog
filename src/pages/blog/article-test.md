@@ -1,13 +1,12 @@
 ---
 layout: ../../layouts/BlogPost.astro
-title: test
-description: desc 1 djfjfhrkiki
-hero: https://picsum.photos/200/200
+title: Le Retour d'Avatar
+pubDate: 2 juin 2023
+description: Le film Avatar, réalisé par James Cameron et sorti en 2009, a marqué un tournant dans l'industrie...
 ---
-# Article de test
+# Avatar 2 redéfinit les Limites de l'Imagination !
 
-Normalement, situé à l'adresse: `/blog/article-test`
-<p> blabla test<p<>
-<p> sarah est lente<p<>
+blabla test
+sarah est lente
 
 [Retour à l'accueil](/)
